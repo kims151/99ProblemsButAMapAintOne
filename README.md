@@ -20,7 +20,9 @@ With a rapidly growing population and an increasing threat of natural disasters,
 ## How to use the MetroSafe Web App
 To access the app, please visit out ArcGIS Hub:
 Although we suggest opening the app through our ArcGIS Hub, you may also download MetroSafe(1).zip located on our GitHub page to extract the Web AppBuilder files.
+
 GitHub: https://github.com/kims151/99ProblemsButAMapAintOne/blob/main/MetroSafe%20(1).zip
+
 Upon opening the app, the user is greeted by the About Page, which includes instructions on how to navigate the app and a written legend of the symbols.  
 
 By clicking on an individual station (point feature layer), the user can see a popup with the following information:  
