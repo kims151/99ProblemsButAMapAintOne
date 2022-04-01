@@ -43,6 +43,7 @@ Climate projection data from Ontario Climate Change Data Portal (CCDP) was downl
 - Measurement: Temporal Average
 - Average: Summer (for rainfall), Winter (for snowfall)
 - Percentile: 90%
+
 Initally, the data is downloaded as .txt. This file was represented onto Excel, and subsequently converted to a table using ArcGIS Pro's Excel to Table Conversion Tool. The table consisted of coordinates and projection values, which were used to create a point shapefile. Then a buffer was created around the points to mimic the data shown on CCDP as accurately as possible. Buffers were created for every climate variable listed above. 
 ### Creating the layers: Assigning climate data to public transit stations
 The public transit stations and network were downloaded from Ontario Government's Open Data Portal. These layers were then uploaded onto ArcGIS Pro. Using the buffer created in the previous step, each station was assigned with climate variables using Spatial Join. Now the stations had all the climate variables within its attribute field. The updated station point shapefile and the network were uploaded onto ArcOnline as web layers. 
