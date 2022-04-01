@@ -50,12 +50,12 @@ The projection layers were then uploaded to ArcOnline.
 ### Creating the map
 The map for the app was created using ArcOnline. For arcade usage, popup configurations, and symbology, please visit: https://mcmaster.maps.arcgis.com/home/item.html?id=58b42ba54107482483297821739d40c0
 
-##References
+## References
 1. Canadian Infrastructure Report Card (2016) Informing the Future: The Canadian Infrastructure Report Card, 163
 2. Metrolinx (2017). Planning for Resiliency Toward a Corporate Climate Adaptation Plan. https://www.metrolinx.com/en/aboutus/sustainability/Planning_for_Resiliency_2017_EN_final.pdf 
 3. Summary of the Flood Resilient Toronto Project (2019). https://www.toronto.ca/wp-content/uploads/2019/05/8e9a-2019-04-25_Flood-Resilient-Report.pdf 
 
-##Data
+## Data
 1. Ontario Government: GO train stations (2016) https://data.ontario.ca/dataset/go-train-stations 
 2. Canada Open Government: Flood Disasters in Canada https://data.ontario.ca/dataset/go-train-stations 
 3. Ontario Climate Change Data Portal (CCDP) http://ontarioccdp.ca/index_a1b.html?vab=Precip&per=2065.2095&mea=Mean&avg=Annual&pce=p5&lay=110000&pan=111&opc=0.8&zom=8#
