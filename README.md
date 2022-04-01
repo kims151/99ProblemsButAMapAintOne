@@ -28,3 +28,24 @@ The query widget, located at the bottom of the app, can be used to highlight sta
 The app also intends to educate the public about climate change, climate projections, and historical flood events in GTHA. This is a tribute to pillar 1 of the Metrolinx report. The projections can be toggled using the layer widget, which is located on the top right corner of the app. The legend of the layers is shown by the legend widget, located adjacent to the layer widget.  
 
 The user can use the bookmark widget, located at the bottom of the app, to learn about major flood events and their impact on the economy, environment, and society.  
+##Methodology
+MetroSafe utilized reliable climate projection data and unique GIS-based methodlogy to create the layers shown on the map. 
+### Creating the layers: Converting climate data 
+Climate projection data from Ontario Climate Change Data Portal (CCDP) was downloaded using the following parameters: 
+- Variable: Precipitation, Mean Temperature, Max Temperature
+- Time Period: 2065 - 2095
+- Measurement: Temporal Average
+- Average: Summer (for rainfall), Winter (for snowfall)
+- Percentile: 90%
+Initally, the data is downloaded as .txt. This file was represented onto Excel, and subsequently converted to a table using ArcGIS Pro's Excel to Table Conversion Tool. The table consisted of coordinates and projection values, which were used to create a point shapefile. Then a buffer was created around the points to mimic the data shown on CCDP as accurately as possible. Buffers were created for every climate variable listed above. 
+### Creating the layers: Assigning climate data to public transit stations
+The public transit stations and network were downloaded from Ontario Government's Open Data Portal. These layers were then uploaded onto ArcGIS Pro. Using the buffer created in the previous step, each station was assigned with climate variables using Spatial Join. Now the stations had all the climate variables within its attribute field. The updated station point shapefile and the network were uploaded onto ArcOnline as web layers. 
+### Creating the layers: Climate Projections
+The same climate projection data points from the previous step were used to create a raster layer. For this step, IDW (Spatial Analyst) tool was used. The unique parameters are as follows:
+- in_point_features: climate projection data
+- z_field : magnitude of the projection data (snowfall, rainfall, temp, etc.)
+- Extent: GTHA border polygon shp
+- Mask: GTHA border polygon shp
+The projection layers were then uploaded to ArcOnline. 
+### Creating the map
+The map for the app was created using ArcOnline. For arcade usage, popup configurations, and symbology, please visit: https://mcmaster.maps.arcgis.com/home/item.html?id=58b42ba54107482483297821739d40c0
