@@ -16,7 +16,11 @@ With the use of various data visualization tools, important trends across a give
 MetroSafe has been designed as a long-term solution to efficiently manage and monitor transportation infrastructure. This includes measuring the effectiveness of policies and decisions and ensuring there is a common reporting platform.  
 
 With a rapidly growing population and an increasing threat of natural disasters, MetroSafe helps ensure a stable and safer future for Ontarians. 
+
 ## How to use the MetroSafe Web App
+To access the app, please visit out ArcGIS Hub:
+Although we suggest opening the app through our ArcGIS Hub, you may also download MetroSafe(1).zip located on our GitHub page to extract the Web AppBuilder files.
+GitHub: 
 Upon opening the app, the user is greeted by the About Page, which includes instructions on how to navigate the app and a written legend of the symbols.  
 
 By clicking on an individual station (point feature layer), the user can see a popup with the following information:  
