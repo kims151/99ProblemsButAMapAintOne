@@ -1,7 +1,9 @@
 ## Pierce Bourgeois
 I am a fourth year Bachelor of Arts student studying at McMaster, where my focus has been GIS applications within an urban setting. Naturally I am pursuing the GIS certificate through the School of Earth, Environment & Society. The ECCE App Challenge has given me a great opportunity to test out some of my skills, learn new ones and have fun along the way (plus maybe win a prize). Ever since I was a kid, I have been both blown away and mesmerized by the power of maps and they never cease to amaze me! Aside from maps, I do enjoy kayaking, rugby and making diabetes an easier disease to live with.
+![Pierce](https://github.com/kims151/99ProblemsButAMapAintOne/blob/main/Bios/Pierce.jpg)
 ## Sameer Haqqi
 I am a 4th-year student in the Honours Economics Program at McMaster University, and I am also completing a Geographic Information Systems (GIS) Certificate. I have a keen interest in analytics where I am driven by the endless opportunities for innovation and applying critical thinking in solving real-world problems. I believe when data is effectively managed, it tells us a story allowing us to make data-driven decisions. In my free time, I enjoy hiking, working out at the gym and playing guitar! 
+![Sameer](https://github.com/kims151/99ProblemsButAMapAintOne/blob/main/Bios/Sameer.jpg)
 ## Grace Soo Ah Kim
 I am a fourth year Honours Earth and Environmental Science student at McMaster University. I was introduced to GIS in my second year of my undergraduate program and was interested in its application and theory ever since! Now, I am pursuing a minor in GIS and writing my undergraduate thesis using GIS-based software, such as ArcGIS Pro and TransCAD. Outside of school, I love to play the piano, game with my friends, and collect board games!
 ![Grace](https://github.com/kims151/99ProblemsButAMapAintOne/blob/main/Bios/Grace.jpg)
