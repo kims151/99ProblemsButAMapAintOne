@@ -28,7 +28,7 @@ The query widget, located at the bottom of the app, can be used to highlight sta
 The app also intends to educate the public about climate change, climate projections, and historical flood events in GTHA. This is a tribute to pillar 1 of the Metrolinx report. The projections can be toggled using the layer widget, which is located on the top right corner of the app. The legend of the layers is shown by the legend widget, located adjacent to the layer widget.  
 
 The user can use the bookmark widget, located at the bottom of the app, to learn about major flood events and their impact on the economy, environment, and society.  
-##Methodology
+## Methodology
 MetroSafe utilized reliable climate projection data and unique GIS-based methodlogy to create the layers shown on the map. 
 ### Creating the layers: Converting climate data 
 Climate projection data from Ontario Climate Change Data Portal (CCDP) was downloaded using the following parameters: 
