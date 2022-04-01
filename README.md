@@ -1,4 +1,4 @@
-# MetroSafeWeb App  by 99ProblemsButAMapAintOne
+# MetroSafe Web App  by 99ProblemsButAMapAintOne
 The MetroSafe web app is an information tool that public transportation planners can use to build a climate-resilient transportation system across GTHA. The app closely follows Metrolinx’s Corporate Climate Adaptation Plan and aims to fulfil the four key requirements needed to put climate resiliency into practice. The four pillars are as follows: 
 1. Awareness education and communication 
 2. Assessing vulnerability, risks, and opportunities 
